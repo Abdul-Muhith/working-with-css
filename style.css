@@ -1,0 +1,32 @@
+body {
+  background-color: lightgrey; /* Sets the background color of the entire page */
+}
+
+/* Element Selector: Targets elements by their name. */
+h1 {
+  color:red;
+}
+
+/* Class Selector: Targets elements with a specific class attribute, useing . before the class name. */
+.bg {
+background-color: yellow;
+}
+
+/* ID Selector: Targets a unique element with a specific ID attribute, useing # before the ID name. */
+#basify-font-size {
+  font-size: 44px;
+}
+
+/* Attribute Selector: Targets elements with a specific attribute. */
+input[type="text"] {
+  border: 1px solid black;
+}
+
+/* Box Model in CSS */
+.box {
+  width: 200px; /* Width of the content area */
+  padding: 20px; /* Space between the content and the border */
+  border: 5px solid black; /* Border around the padding */
+  margin: 30px; /* Space outside the border */
+  background-color: lightblue; /* Background color of the content area */
+}
